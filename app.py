@@ -18,7 +18,7 @@ def classify(img):
     return f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}'
 
 if uploaded_file is not None:
-    img = open_image(uploaded_file)
+    img = Image.open(uploaded_file)
     display_image = Image.open(uploaded_file)
     st.image(display_image, caption='Uploaded Image', use_column_width=True)
     prediction = classify(img)
