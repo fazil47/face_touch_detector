@@ -19,7 +19,7 @@ def classify(img):
 
 if uploaded_file is not None:
     img = Image.open(uploaded_file)
-    display_image = Image.open(uploaded_file)
-    st.image(display_image, caption='Uploaded Image', use_column_width=True)
+    # display_image = Image.open(uploaded_file)
+    st.image(img, caption='Uploaded Image', use_column_width=True)
     prediction = classify(img)
     st.write("Prediction: ", prediction)
