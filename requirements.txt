@@ -1,7 +1,4 @@
-fastai==2.0.15
-fastbook==0.0.11
-voila==0.1.9
-pillow<7
-packaging
-ipywidgets==7.5.1
-nbconvert<6
+fastai==2.0.13
+https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
+streamlit==0.63.0
+Pillow==7.2.0
