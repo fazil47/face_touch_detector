@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 fastai==2.0.13
 https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
 streamlit==0.63.0
-=======
-fastai==1.0.61
-https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
-streamlit==0.63.0
->>>>>>> 419de29204a629f688c700251c8d9fb6e701bcc9
 Pillow==7.2.0
