@@ -1,11 +1,10 @@
 import streamlit as st
-from fastai.vision.all import load_learner
+from fastai.vision import load_learner
 from PIL import Image
 from pathlib import Path
 
-path = Path()
-print(path)
-learn_inf = load_learner(path/'export.pkl')
+path = ''
+learn_inf = load_learner(path)
 
 st.title("Are you touching your face?")
 st.markdown("This is a web app to classify the person in the uploaded image as touching their face or not.")
