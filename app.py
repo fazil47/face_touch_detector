@@ -1,5 +1,5 @@
 import streamlit as st
-from fastai.vision.all import open_image, load_learner
+from fastai.vision.all import load_learner
 from PIL import Image
 from pathlib import Path
 
