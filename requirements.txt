@@ -1,6 +1,6 @@
 fastai==2.0.15
 fastbook==0.0.11
-voila
+voila==0.2.1
 pillow<7
 packaging
 ipywidgets==7.5.1
