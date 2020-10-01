@@ -1,7 +1,7 @@
 import streamlit as st
 from fastai.vision import load_learner
 from PIL import Image
-from pathlib import Path
+from fastai.learner
 
 path = ''
 learn_inf = load_learner(path)
